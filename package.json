@@ -1,5 +1,5 @@
 {
-  "name": "just-add-marmite",
+  "name": "f360",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "contentful": "^9.3.3",
     "next": "10.0.8",
     "react": "17.0.1",
     "react-dom": "17.0.1"

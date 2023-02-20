@@ -6,11 +6,10 @@ export default function Layout({ children }) {
       <header>
         <Link href="/">
           <a>
-            <h1>
-              <span>Just Add</span>
-              <span>Marmite</span>
-            </h1>
-            <h2>Spread The Joy</h2>
+            <h2>
+              <span>Foundry 360</span>
+            </h2>
+            <h2>Transform on how you monitor your assets!</h2>
           </a>
         </Link>
       </header>
@@ -20,7 +19,7 @@ export default function Layout({ children }) {
       </div>
 
       <footer>
-        <p>Copyright 2021 Just Add Marmite :)</p>
+        <p>Copyright 2023</p>
       </footer>
     </div>
   )
