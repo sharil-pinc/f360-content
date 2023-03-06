@@ -13,7 +13,7 @@ export default function ProductDetails({ product }) {
 
     return (
       <div>
-        Product Details   
+        Product Details           
 
         {/* <div className="card">
             <div className="features">
