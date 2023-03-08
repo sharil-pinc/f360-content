@@ -19,10 +19,11 @@ export async function getStaticProps() {
 }
 
 export default function Products({products}) {
-  console.log(products)
+  // console.log(products)
 
   return (
     <div className="product-list">
+      
       <h4>PRODUCT LIST</h4>
       {products.map(product => (        
         <ProductDetail key={ product.sys.id } product={product} />

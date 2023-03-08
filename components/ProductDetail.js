@@ -4,6 +4,7 @@ import Image from "next/image"
 export default function ProductDetail({ product }) {
 
     const { title, price, slug, image } = product.fields
+    //console.log(product.fields.title)
 
     return (
         <div className="card">
@@ -20,7 +21,7 @@ export default function ProductDetail({ product }) {
                     <p>Price: RM{price}</p>
                 </div>
                 <div className="actions">
-                    <Link href={'/products/' + slug}><a>Details</a></Link>
+                    <Link href={'/product/' + slug}><a>Details</a></Link>
                 </div>
             </div>
 

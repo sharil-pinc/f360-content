@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start"
   },
-  "dependencies": {
+  "dependencies": { 
     "contentful": "^9.3.3",
     "next": "10.0.8",
     "react": "17.0.1",
